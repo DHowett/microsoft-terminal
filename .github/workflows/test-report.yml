@@ -25,3 +25,4 @@ jobs:
         path: '**/*.trx'
         artifact: '/^test-(\w+)-(\w+)$/'
         name: 'Test Results ($1 $2)'
+        use-actions-summary: false
